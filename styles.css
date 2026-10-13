@@ -438,11 +438,6 @@ th {
   color: var(--muted);
   font-size: 0.9rem;
 }
-.note-warn {
-  background: rgba(95, 111, 90, 0.08);
-  border-color: rgba(95, 111, 90, 0.18);
-}
-
 .scope-rule {
   margin: 0 0 1rem;
   padding: 1.35rem 1.45rem;
@@ -460,44 +455,9 @@ th {
 }
 .scope-rule p { margin: 0 0 0.55rem; color: var(--muted); font-size: 0.94rem; }
 .scope-rule p:last-child { margin-bottom: 0; }
-.scope-rule-note { font-size: 0.88rem !important; color: #85857c !important; }
+.scope-rule p strong { color: var(--ink); font-weight: 600; }
 
-.budget-bar {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1.25rem;
-  padding: 1.5rem 1.6rem;
-  margin-bottom: 1rem;
-  background:
-    linear-gradient(135deg, rgba(95, 111, 90, 0.06), transparent 55%),
-    var(--surface);
-  border: 1px solid var(--line);
-  border-radius: calc(var(--radius) + 2px);
-  box-shadow: var(--shadow);
-}
-.budget-label {
-  margin: 0;
-  font-size: 0.72rem;
-  font-weight: 600;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--sage);
-}
-.budget-value {
-  margin: 0.25rem 0 0;
-  font-family: var(--display);
-  font-size: clamp(1.7rem, 3vw, 2.15rem);
-  font-weight: 600;
-  letter-spacing: -0.03em;
-}
-.budget-note {
-  margin: 0;
-  max-width: 22rem;
-  color: var(--muted);
-  font-size: 0.9rem;
-}
+.quote-form { margin-top: 1rem; }
 
 /* Criteria */
 .criteria {
@@ -679,5 +639,5 @@ body.modal-open { overflow: hidden; }
 @media print {
   .topbar, .hero-cta, .footer, .modal, body::before { display: none !important; }
   body { background: #fff; }
-  .card, .budget-bar, .criterion, .hero-aside { box-shadow: none; break-inside: avoid; }
+  .card, .scope-rule, .criterion, .hero-aside { box-shadow: none; break-inside: avoid; }
 }
