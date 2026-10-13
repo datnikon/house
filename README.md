@@ -6,19 +6,27 @@ Website tĩnh (HTML / CSS / JS) gửi đơn vị thiết kế–thi công. Deplo
 
 ## Trước khi đăng
 
-1. Trong `index.html`, thay `YOUR_USERNAME` (5 chỗ) ở các thẻ `canonical`, `og:url`, `og:image`, `twitter:image`, JSON-LD bằng URL Pages thật. **Chưa thay thì share Zalo/Messenger không có ảnh preview.**
-2. Ảnh lô đất nằm ở `assets/lo-dat.jpg` — mở bằng nút trên trang (không hiện sẵn).
+1. Trong `index.html`, thay `YOUR_USERNAME` (4 chỗ) ở các thẻ `canonical`, `og:url`, `og:image`, `twitter:image` bằng URL Pages thật. **Chưa thay thì share Zalo/Messenger không có ảnh preview.**
+2. Share xong preview vẫn sai? Zalo/Facebook cache OG — xóa cache tại [Facebook Sharing Debugger](https://developers.facebook.com/tools/debug/).
+
+## Ảnh
+
+| File | Dùng ở đâu |
+|------|-----------|
+| `assets/lo-dat.jpg` | Ảnh Street View lô đất — mở bằng nút trên trang (modal) |
+| `assets/phoi-canh.jpg` | Ảnh tham khảo gu, hiện trong bảng section 01 (750×630) |
+| `assets/og-phoi-canh.jpg` | Ảnh preview khi share link (1200×630, chuẩn OG) |
 
 ## Nội dung trang
 
 | # | Section | Nội dung |
 |---|---------|----------|
-| 01 | Đất & định hướng | Lô đất, vị trí, loại hình, sân trước, bố cục, chống nắng chiều |
-| 02 | Bố trí phòng ốc | Công năng dự kiến |
-| 03 | Yêu cầu cốt lõi | An toàn, thoải mái, độ bền |
-| 04 | Báo giá | IN/OUT, format báo giá, thanh toán & bảo hành |
-| 05 | Tiêu chí lựa chọn | Tiến độ, minh bạch, giá, năng lực |
-| 06 | Liên hệ | Zalo 0362 438 292 + checklist gửi báo giá |
+| 01 | Đất | Lô đất, vị trí, loại hình, sân trước, bố cục, chống nắng, gu tham khảo |
+| 02 | Bố trí phòng ốc | Các phòng mong muốn |
+| 03 | Yêu cầu | An toàn, cách nhiệt/cách âm, độ bền, đồ dùng |
+| 04 | Báo giá | Về ngân sách, mong muốn cách báo giá |
+| 05 | Nhà thầu | Tiến độ, minh bạch, giá hợp lý, kinh nghiệm |
+| 06 | Liên hệ | Zalo 0362 438 292 |
 
 Trang in được (Ctrl/Cmd+P) — print CSS đã xử lý section nền tối.
 

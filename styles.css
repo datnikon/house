@@ -378,6 +378,23 @@ th {
   tr:last-child { border-bottom: 0; }
 }
 
+.ref-figure {
+  margin: 0;
+  max-width: 420px;
+}
+.ref-figure img {
+  width: 100%;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--line);
+  background: var(--bg-soft);
+}
+.ref-figure figcaption {
+  margin-top: 0.55rem;
+  color: var(--muted);
+  font-size: 0.84rem;
+  line-height: 1.5;
+}
+
 .grid-2,
 .grid-3 {
   display: grid;
