@@ -6,8 +6,21 @@ Website tĩnh (HTML / CSS / JS) gửi đơn vị thiết kế–thi công. Deplo
 
 ## Trước khi đăng
 
-1. Trong `index.html`, thay `YOUR_USERNAME` ở các thẻ `canonical`, `og:*`, `twitter:*`, JSON-LD bằng URL Pages thật.
+1. Trong `index.html`, thay `YOUR_USERNAME` (5 chỗ) ở các thẻ `canonical`, `og:url`, `og:image`, `twitter:image`, JSON-LD bằng URL Pages thật. **Chưa thay thì share Zalo/Messenger không có ảnh preview.**
 2. Ảnh lô đất nằm ở `assets/lo-dat.jpg` — mở bằng nút trên trang (không hiện sẵn).
+
+## Nội dung trang
+
+| # | Section | Nội dung |
+|---|---------|----------|
+| 01 | Đất & định hướng | Lô đất, vị trí, loại hình, sân trước, bố cục, chống nắng chiều |
+| 02 | Bố trí phòng ốc | Công năng dự kiến |
+| 03 | Yêu cầu cốt lõi | An toàn, thoải mái, độ bền |
+| 04 | Báo giá | IN/OUT, format báo giá, thanh toán & bảo hành |
+| 05 | Tiêu chí lựa chọn | Tiến độ, minh bạch, giá, năng lực |
+| 06 | Liên hệ | Zalo 0362 438 292 + checklist gửi báo giá |
+
+Trang in được (Ctrl/Cmd+P) — print CSS đã xử lý section nền tối.
 
 ## Publish
 
